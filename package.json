@@ -1,0 +1,14 @@
+{
+  "name": "rest-api-interfaces",
+  "version": "0.0.1",
+  "description": "REST-based API Interfaces",
+  "main": "./js/index.js",
+  "typings": "./js/index.d.ts",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wchang28/rest-api-interfaces.git"
+  },
+  "author": "Wen Chang",
+  "license": "MIT"
+}
