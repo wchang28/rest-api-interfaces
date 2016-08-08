@@ -1,9 +1,8 @@
 {
   "name": "rest-api-interfaces",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "REST-based API Interfaces",
-  "main": "./js/index.js",
-  "typings": "./js/index.d.ts",
+  "typings": "./ts/index.d.ts",
   "scripts": {},
   "repository": {
     "type": "git",
