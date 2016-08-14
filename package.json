@@ -1,6 +1,6 @@
 {
   "name": "rest-api-interfaces",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "REST-based API Interfaces",
   "typings": "./ts/index.d.ts",
   "scripts": {},

@@ -7,3 +7,8 @@ export interface ApiCallOptions {
 	headers?: {[fld:string]:string;};
     rejectUnauthorized?: boolean;
 }
+
+export interface IError {
+    error: string;
+    error_description: string;
+}
