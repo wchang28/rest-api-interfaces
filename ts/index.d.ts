@@ -12,3 +12,7 @@ export interface IError {
     error: string;
     error_description: string;
 }
+
+export interface CompletionHandler {
+    (err: any, ret: any) : void;
+}
