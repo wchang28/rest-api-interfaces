@@ -14,5 +14,5 @@ export interface IError {
 }
 
 export interface CompletionHandler {
-    (err: any, ret: any) : void;
+    (err: any, ret: any, headers?: {[fld:string]:string;}) : void;
 }
