@@ -16,3 +16,12 @@ export interface IError {
 export interface CompletionHandler {
     (err: any, ret: any, headers?: {[fld:string]:string;}) : void;
 }
+
+export type HTTPMethod = "GET" | "POST" | "PUT" | "PATCH" | "DELETE" | "OPTIONS" | "HEAD" | "TRACE" | "CONNECT";
+
+export interface RESTReturn {
+    status: number
+    statusText: string;
+    headers: {[fld:string]: string};
+    data?: any
+}
