@@ -19,7 +19,8 @@ export interface CompletionHandler {
     (err: any, ret: any, headers?: HTTPHeaders) : void;
 }
 
-export type HTTPMethod = "GET" | "POST" | "PUT" | "PATCH" | "DELETE" | "OPTIONS" | "HEAD" | "TRACE" | "CONNECT";
+export type HTTPResourceCrudMethod = "GET" | "POST" | "PUT" | "PATCH" | "DELETE";
+export type HTTPMethod = HTTPResourceCrudMethod | "OPTIONS" | "HEAD" | "TRACE" | "CONNECT";
 
 export interface ContentInfo {
     readonly type: string;   // content-type
