@@ -27,6 +27,11 @@ export interface ContentInfo {
     readonly size: number;   // content-length
 }
 
+export interface ReadableContent<BLOB> {
+    info: ContentInfo;
+    readable: BLOB;
+}
+
 export interface RESTReturn {
     status: number
     statusText: string;
