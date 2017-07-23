@@ -24,7 +24,7 @@ export type HTTPMethod = HTTPResourceCrudMethod | "OPTIONS" | "HEAD" | "TRACE" |
 
 export interface ContentInfo {
     readonly type: string;   // content-type
-    readonly size: number;   // content-length
+    readonly size?: number;   // content-length
 }
 
 export interface ReadableContent<BLOB> {
